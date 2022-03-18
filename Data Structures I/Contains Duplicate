@@ -1,9 +1,0 @@
-import numpy as np
-
-class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-        if(len(np.unique(nums)) == len(nums)):
-            return 0
-        else:
-            return 1
-        
