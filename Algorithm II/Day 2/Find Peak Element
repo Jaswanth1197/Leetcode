@@ -1,0 +1,9 @@
+class Solution:
+    def findPeakElement(self, nums: List[int]) -> int:
+        max = nums[0]
+        for i in nums:
+            if i > max:
+                max = i
+                
+        return nums.index(max)
+        
